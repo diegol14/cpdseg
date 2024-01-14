@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?cpdseg.online$ 
+RewriteCond %{REQUEST_URI} !^/View/public/ 
+RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %
+{REQUEST_FILENAME} !-d RewriteRule ^(.*)$ /View/public/$1 RewriteCond %
+{HTTP_HOST} ^(www.)?cpdseg.online$ RewriteRule ^(/)?$ 
+View/public/index.php [L]
+
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+SetHandler application/x-lsphp80
+</FilesMatch>
