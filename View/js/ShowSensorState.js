@@ -79,6 +79,7 @@ function showSensorState(e) {
     e)
   ) {
     case 1:
+
       setInterval(function () {
         $.ajax({
           type: "POST",
@@ -93,8 +94,11 @@ function showSensorState(e) {
               s = $("#meterluz"),
               u = $("#timeluz"),
               o = $("#statusluz");
-            $("#nullluz").show(50),
-            $("#onluz").show(50),
+$("#nullluz").show(50),
+        console.log('Existe onluz antes:', $("#onluz").length),
+$("#onluz").show(50),
+console.log('Existe onluz después:', $("#onluz").length);
+
               "alarma" == l ? (f = !1) : "reposo" == l && (f = !0),
               0 != f ||
                 y ||
