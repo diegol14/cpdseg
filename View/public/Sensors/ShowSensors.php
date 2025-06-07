@@ -79,7 +79,7 @@ else{
             </header>
             <div id=sensores>
                 <section class="principal">
-                    <div class="box" id="boxluz" height="230" width="120">
+                    < class="box" id="boxluz" height="230" width="120">
                         <div class="boximg">
                             <img id="imgluz" src="/View/public/assets/img/luz.png" alt="Cantidad de luz" height="130"
                                 width="120">
@@ -88,7 +88,9 @@ else{
                         <div>
                             <input type="button" class="btnomit" value="Omitir" id="nullluz"
                                 title="No anula el evento en la Base de Datos">
-                            <input type="button" class="btnomit" value="Encender" id="onluz"
+                        </div>
+                        <div>
+                        <input type="button" class="btnomit" value="Encender" id="onluz"
                                 title="Enciende la luz">
                         </div>
                         <div class="labsen"><label id="labluz">Nivel de luz (0 a 1023)</label>

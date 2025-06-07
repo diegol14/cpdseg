@@ -1,1 +1,8 @@
-var delForm=document.getElementById("delform"),submit_button=document.getElementById("deluser"),namedel=document.getElementById("namedel");delForm.addEventListener("submit",e=>{e.preventDefault(),del=confirm("Va a borrar a\n"+namedel.value+"\nde la aplicación"),del&&delForm.submit()});
+var delForm = document.getElementById("delform"),
+  submit_button = document.getElementById("deluser"),
+  namedel = document.getElementById("namedel");
+delForm.addEventListener("submit", (e) => {
+  e.preventDefault(),
+    (del = confirm("Va a borrar a\n" + namedel.value + "\nde la aplicación")),
+    del && delForm.submit();
+});
