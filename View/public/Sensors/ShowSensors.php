@@ -90,7 +90,7 @@ else{
                                 title="No anula el evento en la Base de Datos">
                         </div>
                         <div>
-                        <input type="button" class="btnomit" value="Encender" id="onluz"
+                        <input type="button" class="btnon" value="Encender" id="onluz"
                                 title="Enciende la luz">
                         </div>
                         <div class="labsen"><label id="labluz">Nivel de luz (0 a 1023)</label>

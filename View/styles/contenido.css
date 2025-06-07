@@ -173,6 +173,14 @@ input {
   border-radius: 6px;
   font-weight: 900;
 }
+.btnon {
+  display: none;
+  color: #4a97eb;
+  border: 3px solid #4a97eb;
+  background: 0 0;
+  border-radius: 6px;
+  font-weight: 900;
+}
 .btncomienza {
   color: #4a97eb;
   border: 3px solid #4a97eb;
@@ -214,7 +222,8 @@ input {
   background-position: 0 0;
 }
 .btncomienza:active,
-.btnomit:active {
+.btnomit:active,
+.btnon:active {
   color: #eee;
   background: #4a97eb;
 }
@@ -224,7 +233,8 @@ input {
 }
 @media (hover: hover) {
   .btncomienza:hover,
-  .btnomit:hover {
+  .btnomit:hover,
+  .btnon:hover {
     color: #eee;
     background: #4a97eb;
   }
