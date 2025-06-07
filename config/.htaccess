@@ -1,0 +1,8 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:Sckpe8Yu8y
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u194042960/domains/cpdseg.online/public_html/config/.htpasswd
+Require valid-user
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE Sckpe8Yu8y:PWPROTECTID
+

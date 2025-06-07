@@ -1,0 +1,1 @@
+function getUrlPeticion(){return"https://www.cpdseg.tech/Controller/Events/RecibiendoPeticion.php"}function getUrlPeticionForm(){return"https://www.cpdseg.tech/Controller/Users/RecibiendoUsuario.php"}
